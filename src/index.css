@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header_container{
+  height: auto;
+  width: 100%;
+  color: black;
+  background-color: azure;
+}
+
+.header_opaque{
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.header_element{
+  margin: 1vw 4vw;
+}
+
+a:link, a:visited{
+  color: black;
+  background: transparent;
+  text-decoration: none;
+}
+
+/* ProductComponents */
+.product_container{
+}
+
+.product_cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3vw;
+}
+
+.product_card{
+  background-color: white;
+  padding: 2vw;
+  height: 50vw;
+  width: 40vw;
+  border: 0.1vw solid rgb(145, 145, 145);
+  border-radius: 4vw;
+  margin-bottom: 2vw;
+}
+
+.product_image img{
+  height: 30vw;
+  width: 30vw;
+}
+
+
+/* Single Product */
+.singleProduct_container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+
+}
+.loading{
+  font-size: 5vw;
+}
+
+.singleProduct_card{
+  background-color: #fff;
+  height: 40vw;
+  width: 75vw;
+  max-height: 70vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 0.1vw solid rgb(145, 145, 145);
+  border-radius: 3vw 0vw;
+  padding: 2vw;
+}
+
+.singleProduct_image img{
+  height: 25vw;
+  width: 25vw;
+}
+
+.singleProduct_description{
+  margin-left: 5vw;
+}
+
+.singleProduct_description h1{
+  font: 500;
+  font-size: 2.3vw;
+}
+
+.price{
+  width: 10vw;
+  background-color: green;
+  color: white;
+  padding: 0.8vw;
+  border-radius: 10vw 0vw 0vw 10vw;
+  margin-bottom: 2vw;
+}
+
+.price h1{
+  margin-left: 1vw;
+}
+
+.category{
+  background-color: rgb(229, 229, 229);
+  padding: 1.5vw 1vw 1.5vw 1vw;
+  border: 0.1vw solid rgb(161, 161, 161);
+  border-radius: 0.8vw;
+}
+
+.category h4{
+  font-size: larger;
+  color:rgb(39, 39, 39);
+}
+
+.singleProduct_description h4{
+  font-size: larger;
+  line-height: 1.8vw;
+  padding-right: 4vw;
+}
+
+.singleProduct_description button{
+  background-color: red;
+  padding: 1vw;
+  border: 0.1vw solid black;
+  color: #fff;
+  border-radius: 1vw 0vw 1vw 0vw;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.singleProduct_description button:hover{
+  background-color: black;
+}
